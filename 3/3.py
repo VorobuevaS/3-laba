@@ -1,5 +1,5 @@
 sl = input()
-if "ф" in sl or "Ф" in sl:
+if "Ф" in sl or "ф" in sl:
     print("Слово редкое!")
 else:
     print("Слово не редкое. Как жаль.")

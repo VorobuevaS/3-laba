@@ -1,6 +1,6 @@
 S = ' '
 F = ' '
-x = 'stop'
+x = 'stoop'
 while True:
     n = input("Введите слово   ")
     S = S + ' ' + n
