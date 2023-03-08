@@ -1,0 +1,19 @@
+t = input(" ")
+a = "ф"
+b = "Ф"
+r = 0
+W = 0
+for i in range(1, len(t)):
+   r = len(t) - 1
+   k = t[1:]
+   o = t[:-r]
+   if o == a or o == b or k == a or k == b:
+      W = 1
+      break
+   t = k
+   print(t, o, k)
+   print(' 0')
+if W == 1 :
+  print("вы проиграли")
+else:
+  print("вы выйграли")
